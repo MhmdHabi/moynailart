@@ -14,18 +14,18 @@ export default function AboutContent() {
       <div className="space-y-6">
         {/* Point 1 */}
         <div className="flex items-start gap-4">
-          <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center shadow-md">
+          <div className="w-18 h-14 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center shadow-md">
             <Award className="text-white" size={26} />
           </div>
           <div>
             <h4 className="text-xl font-semibold text-gray-900">Profesional</h4>
-            <p className="text-gray-600 text-sm leading-relaxed">Nail artist bersertifikat dengan pengalaman lebih dari 3 tahun.</p>
+            <p className="text-gray-600 text-sm leading-relaxed">Nail art modern dengan desain kreatif dan kualitas terbaik. Sudah berpengalaman selama 3 tahun.</p>
           </div>
         </div>
 
         {/* Point 2 */}
         <div className="flex items-start gap-4">
-          <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center shadow-md">
+          <div className="w-18 h-14 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center shadow-md">
             <Sparkles className="text-white" size={26} />
           </div>
           <div>
@@ -36,7 +36,7 @@ export default function AboutContent() {
 
         {/* Point 3 */}
         <div className="flex items-start gap-4">
-          <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center shadow-md">
+          <div className="w-15 h-14 bg-gradient-to-br from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center shadow-md">
             <Heart className="text-white" size={26} />
           </div>
           <div>

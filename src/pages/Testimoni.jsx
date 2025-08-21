@@ -16,7 +16,7 @@ export default function TestimoniPage() {
         {/* Grid Gallery */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {images.map((img, idx) => (
-            <div key={idx} className="relative overflow-hidden rounded-2xl shadow-md group cursor-pointer border border-pink-200 bg-white hover:bg-pink-100/40 transition-all duration-500">
+            <div key={idx} className="relative overflow-hidden rounded-lg shadow-md group cursor-pointer border border-pink-200 bg-white hover:bg-pink-100/40 transition-all duration-500">
               <img src={img.src} alt={img.alt} loading="lazy" width="400" height="600" className="w-full h-80 object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out" />
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

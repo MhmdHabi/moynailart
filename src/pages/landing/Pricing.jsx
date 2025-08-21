@@ -5,13 +5,15 @@ import { plans } from "../../constants/pricingData";
 export default function Pricing() {
   return (
     <section className="bg-rose-100 py-20">
-      <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+      <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
         {/* Judul */}
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Pilih Paket Nail Art</h2>
+        <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
+          Pilih Paket <span className="text-pink-600"> Nail Art</span>
+        </h2>
         <p className="text-gray-600 mb-12 max-w-2xl mx-auto">Sesuaikan layanan dengan kebutuhanmu. Kami menyediakan paket mulai dari perawatan sederhana hingga tampilan elegan ✨</p>
 
         {/* Grid Card */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {plans.map((plan) => (
             <div key={plan.id} className={`relative bg-white rounded-3xl shadow-md hover:shadow-xl transition-all duration-300 p-8 flex flex-col ${plan.popular ? "border-2 border-pink-500 scale-105" : ""}`}>
               {/* Label Populer */}
