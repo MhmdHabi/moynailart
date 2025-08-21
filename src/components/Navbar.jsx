@@ -25,7 +25,8 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" role="navigation" aria-label="Main navigation for Moynailart">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" onClick={handleNavClick} className="text-2xl font-extrabold tracking-tight text-pink-600" aria-label="Moynailart Home">
+          <Link to="/" onClick={handleNavClick} className="flex items-center gap-2 text-2xl font-extrabold tracking-tight text-pink-600" aria-label="Moynailart Home">
+            <img src="/assets/nav.png" alt="Moynailart Logo" className="w-8 h-8 object-contain" />
             Moynailart
           </Link>
 
