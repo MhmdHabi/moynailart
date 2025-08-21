@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 import navItems from "../constants/navItems";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +43,13 @@ export default function Navbar() {
 
           {/* Booking Button */}
           <div className="hidden md:block">
-            <Link to="/booking" onClick={handleNavClick} className="px-5 py-2 rounded-lg bg-pink-600 text-white font-semibold hover:bg-pink-700 transition-colors duration-300 shadow-md">
+            <Link
+              to="https://wa.link/0poqqz"
+              target="_blank"
+              onClick={handleNavClick}
+              className="flex items-center justify-center gap-3 w-full px-4 py-2 rounded-lg bg-pink-600 text-white font-semibold hover:bg-pink-700 transition-colors duration-300 shadow-md"
+            >
+              <FaWhatsapp size={20} />
               Booking
             </Link>
           </div>
@@ -79,7 +86,13 @@ export default function Navbar() {
 
               {/* Booking Button di bawah */}
               <div className="mt-5 px-6 pb-8 w-full bg-white">
-                <Link to="/booking" onClick={handleNavClick} className="block w-full text-center px-4 py-2 rounded-lg bg-pink-600 text-white font-semibold hover:bg-pink-700 transition-colors duration-300 shadow-md">
+                <Link
+                  to="https://wa.link/0poqqz"
+                  target="_blank"
+                  onClick={handleNavClick}
+                  className="flex items-center justify-center gap-4 w-full px-4 py-2 rounded-lg bg-pink-600 text-white font-semibold hover:bg-pink-700 transition-colors duration-300 shadow-md"
+                >
+                  <FaWhatsapp size={20} />
                   Booking
                 </Link>
               </div>

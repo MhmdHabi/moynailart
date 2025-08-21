@@ -18,7 +18,7 @@ export default function AlamatPage() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-2">Lokasi 1 - Gang Jeruk, Mendalo Asri</h2>
               <p className="text-gray-600 mb-4">Kecamatan Singkut, Kabupaten Sarolangun</p>
             </div>
-            <div className="w-full h-72">
+            <div className="w-full h-96">
               <iframe
                 title="Lokasi 1 - Gang Jeruk Mendalo Asri"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d498.53259025020355!2d103.52517824810114!3d-1.6010427857200942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1755769003694!5m2!1sid!2sid"
@@ -38,7 +38,7 @@ export default function AlamatPage() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-2">Lokasi 2 - Lokasi 10 Kecamatan Singkut</h2>
               <p className="text-gray-600 mb-4">Kabupaten Sarolangun</p>
             </div>
-            <div className="w-full h-72">
+            <div className="w-full h-96">
               <iframe
                 title="Lokasi 2 - Kecamatan Singkut"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.4913506136977!2d102.69898976942847!3d-2.5182039600309936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e31d19d04534839%3A0x8b9f44cdc9d1626c!2sSungai%20Benteng%2C%20Kec.%20Singkut%2C%20Kabupaten%20Sarolangun%2C%20Jambi%2037482!5e0!3m2!1sid!2sid!4v1755768707880!5m2!1sid!2sid"

@@ -33,7 +33,7 @@ export default function Testimoni() {
           </div>
 
           {/* Baris 2: 2 gambar di tengah */}
-          <div className="flex justify-center gap-6">
+          <div className="flex flex-col sm:flex-row justify-center gap-6">
             {limitedImages.slice(3, 5).map((img, idx) => (
               <div key={idx + 3} className="relative overflow-hidden rounded-2xl shadow-md group cursor-pointer w-full sm:w-1/2 md:w-1/3">
                 <img src={img.src} alt={img.alt} loading="lazy" width="400" height="600" className="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out" />

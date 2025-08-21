@@ -9,7 +9,7 @@ export default function HeroImage() {
       <div className="absolute inset-0 bg-gradient-to-tl from-pink-300/20 to-rose-300/20 rounded-3xl transform -rotate-3 scale-110"></div>
 
       {/* Main image container */}
-      <div className="relative z-10 bg-white px-3 sm:px-4 rounded-3xl shadow-2xl">
+      <div className="relative right-0 lg:right-14 z-10 bg-white px-3 sm:px-4 rounded-3xl shadow-2xl">
         <img src={HeroImageFile} alt="Tangan dengan Nail Art" loading="lazy" className="w-full max-w-[250px] sm:max-w-[320px] md:max-w-[380px] lg:max-w-[400px] rounded-2xl object-cover" />
 
         {/* Floating elements */}

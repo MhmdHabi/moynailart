@@ -25,10 +25,10 @@ export default function Footer() {
 
         {/* Social Media */}
         <div className="flex justify-center space-x-6 text-2xl mt-6">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-pink-600 transition-transform duration-300 transform hover:scale-110">
+          <a href="https://www.instagram.com/moynail_art16/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-pink-600 transition-transform duration-300 transform hover:scale-110">
             <FaInstagram />
           </a>
-          <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-pink-600 transition-transform duration-300 transform hover:scale-110">
+          <a href="https://wa.link/0poqqz" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-pink-600 transition-transform duration-300 transform hover:scale-110">
             <FaWhatsapp />
           </a>
         </div>
